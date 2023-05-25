@@ -1,0 +1,255 @@
+<!-- About Section -->
+<section class="success" id="about">
+    <div class="container">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Verdana, sans-serif;
+            }
+
+            .mySlides {
+                display: none;
+            }
+
+            img {
+                vertical-align: middle;
+            }
+
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 500px;
+                position: relative;
+                margin: auto;
+            }
+
+            /* Caption text */
+            .text {
+                color: #F2F2F2;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+            }
+
+            /* Number text (1/3 etc) */
+            .numbertext {
+                color: #F2F2F2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
+
+            /* The dots/bullets/indicators */
+            .dot {
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+
+            .active {
+                background-color: #717171;
+            }
+
+            /* Fading animation */
+            .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 5s;
+                animation-name: fade;
+                animation-duration: 5s;
+            }
+
+            @-webkit-keyframes fade {
+                from {
+                    opacity: .4
+                }
+
+                to {
+                    opacity: 1
+                }
+            }
+
+            @keyframes fade {
+                from {
+                    opacity: .4
+                }
+
+                to {
+                    opacity: 1
+                }
+            }
+
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+                .text {
+                    font-size: 11px
+                }
+            }
+        </style>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 19</div>
+                <img src="img/a_1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 19</div>
+                <img src="img/a_2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 19</div>
+                <img src="img/a_3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 19</div>
+                <img src="img/a_4.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 19</div>
+                <img src="img/a_5.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 19</div>
+                <img src="img/a_6.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 19</div>
+                <img src="img/a_7.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 19</div>
+                <img src="img/a_8.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 19</div>
+                <img src="img/a_9.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">10 / 19</div>
+                <img src="img/a_10.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">11 / 19</div>
+                <img src="img/a_11.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">12 / 19</div>
+                <img src="img/a_12.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">13 / 19</div>
+                <img src="img/a_13.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">14 / 19</div>
+                <img src="img/a_14.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">15 / 19</div>
+                <img src="img/a_15.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">16 / 19</div>
+                <img src="img/a_16.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">17 / 19</div>
+                <img src="img/a_17.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">18 / 19</div>
+                <img src="img/a_18.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">19 / 19</div>
+                <img src="img/a_19.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 4000); // Change image every 2 seconds
+            }
+        </script>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>About</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-2">
+                <p>저희 문별관측대는 청주의 다양한매력을 탐구하고 찾는 활동을 하였습니다. 그리고 이를 웹사이트로 제작하여 효과적으로 홍보할 수 있게 하였습니다. 대표적으로 유명한 장소를 선정하여 문화와 역사적인 측면으로 나누어 청주의 다양한 장소를 소개하고자 하는 웹사이트를 제작하고자 하였습니다.  </p>
+            </div>
+            <div class="col-lg-4">
+                <p> #청주 #충북대 #충북대박물관 #청주중앙공원 #성안길 #더글로리촬영지 #청주압각수 #서원향약비건립취지문 #청주병영순교지 #청주읍성 #충청도병마절도사영 </p>
+            </div>
+
+        </div>
+    </div>
+</section>
